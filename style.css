@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input::placeholder{
+    font-size: 1.5rem;
+}
+input[type="text"]{
+    font-size: 1.5rem;
+}
+body {
+    background-image: url(food1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 400px;
+}
+.content h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+.content input{
+    width: 70%;
+    height: 30px;
+}
+.content button{
+    width: 20%;
+    height: 30px;
+}
+.search{
+    padding-left: 20px;
+}
