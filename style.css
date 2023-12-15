@@ -16,17 +16,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .content{
     background-color: rgba(0, 0, 0,0.5);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
-.content h1{
+.content h1,.content h2{
     color: white;
     font-size: 3rem;
     text-align: center;
@@ -45,4 +46,29 @@ body {
     display: flex;
     align-items: center;
     width: 400px;
+}
+.option{
+    color: white;
+    margin-top: 20px;
+    width: 500px;
+}
+.option1,.option2,.option3{
+    display: flex;
+    justify-content: space-between;
+}
+.option2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.option3{
+    margin-bottom: 80px;
+}
+.text1,.text3{
+    margin-right: 120px;
+}
+.img1,.img2,.img3{
+    width: 280px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
